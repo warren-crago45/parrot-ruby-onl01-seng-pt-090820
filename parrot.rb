@@ -3,5 +3,5 @@ def parrot
   phrase = "Pretty bird!"
   puts parrot
   return parrot
-  puts phrase 
+  puts #{parrot + phrase}
 end
